@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jpaDb?characterEncoding=UTF-8&serverTimezone=UTC
+    username: kimCoding
+    password: dkwmfrjdns1!
+    sql-script-encoding: UTF-8
+
+  jpa:
+    #hibernate:
+      #ddl-auto: create
+    show-sql: true
